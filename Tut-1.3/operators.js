@@ -19,31 +19,16 @@ let log = console.log;
 // log(unaryExample);
 
 //3️⃣ Assignment Operators(=,+=, -=, *=, /= , %=, **=)
-let operation = 21;
-operation **= 3;
-// operation = operation + 3;
-// log(operation);
+
+// let x = 20;
+// x **= 2;
+// console.log(x);
+
+// let x = 20;
+// console.log(x);
 
 //4️⃣ Comparison Operators (==, ===, !=, !==, >, <, >= , <=)
-//TYPE COERCION********
-// let y = 5;
-// let x = 20.1;
-// if (x <= 20) {
-//   log(true);
-// } else {
-//   log(false);
-// }
-// log(y !== x);
 
-//5️⃣ Logical Operators (&&, ||, !)
-// let y = 5;
-// let x = 6;
-// log(x > 0 && y > 4 && x === 6);
-// log(x > 10 || y < 4 || y == 7);
+//5️⃣ Logical Operators (&&, ||)
 
 //6️⃣ Ternary Operators (? :)
-
-let y = 5;
-let x = 6;
-let result = x < y ? "x is bigger" : "x is smaller";
-log(result);
